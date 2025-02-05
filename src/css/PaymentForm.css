@@ -1,0 +1,77 @@
+/* PaymentForm.css */
+.payment-form-container {
+    margin-top: 30px;
+}
+
+.form-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+select.form-control, input.form-control {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .payment-form-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+}

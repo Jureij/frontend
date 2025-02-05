@@ -1,0 +1,43 @@
+/* Table styling for Customer Management */
+.table {
+  width: 80%; /* Set the width of the table to 80% of its container */
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+/* Styling for table headers */
+.table th {
+  font-weight: bold;
+  background-color: #007bff; /* Blue background for headers */
+  color: white;
+  text-align: center;
+}
+
+/* Styling for table cells */
+.table td {
+  text-align: center;
+}
+
+/* Optional: Adjust the width of specific columns */
+.table th:nth-child(1), .table td:nth-child(1) {
+  width: 10%; /* Adjust the width of the ID column */
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+  width: 10%; /* Adjust the width of the Name column */
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+  width: 10%; /* Adjust the width of the Address column */
+}
+
+.table th:nth-child(4), .table td:nth-child(4) {
+  width: 10%; /* Adjust the width of the Mobile Number column */
+}
+
+.table th:nth-child(5), .table td:nth-child(5) {
+  width: 10%; /* Adjust the width of the Email column */
+}
+
+.table th:nth-child(6), .table td:nth-child(6) {
+  width: 10%; /* Adjust the width of the Gender column */
+}

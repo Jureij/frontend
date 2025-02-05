@@ -1,0 +1,28 @@
+.order-management-container {
+    padding: 10px;
+  }
+  
+  .form-card {
+    max-width: 300px;
+    width: 80%;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  thead.thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  @media (max-width: 168px) {
+    .form-card {
+      max-width: 80%;
+    }
+  }
+  
