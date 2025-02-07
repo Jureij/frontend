@@ -42,7 +42,7 @@ const PaymentForm = () => {
         };
 
         try {
-            const response = await axios.post('https://backend-mlyr.onrender.com/api/payment/', paymentData);
+            const response = await axios.post('https://backend-1-kb5u.onrender.com/api/payment/', paymentData);
             if (response.status === 201) {
                 setMessage('Payment successfully recorded');
             } else {
