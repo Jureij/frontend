@@ -16,7 +16,7 @@ const Customer = () => {
   const [customers, setCustomers] = useState([]);
   const [message, setMessage] = useState("");
 
-  const API_URL = "https://backend-mlyr.onrender.com/api/customer/";
+  const API_URL = "https://backend-1-kb5u.onrender.com/api/customer/";
 
   useEffect(() => {
     fetchCustomers();
