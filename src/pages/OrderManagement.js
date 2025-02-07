@@ -19,7 +19,7 @@ const OrderManagement = () => {
   const [filteredOrders, setFilteredOrders] = useState([]);  // To store filtered orders
   const [message, setMessage] = useState("");
 
-  const API_BASE_URL = "https://backend-1-kb5u.onrender.com/api/order/",
+  const API_BASE_URL = "https://backend-1-kb5u.onrender.com/api/order/";
 
   useEffect(() => {
     fetchData("customer", setCustomers);
