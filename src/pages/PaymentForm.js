@@ -19,7 +19,7 @@ const PaymentForm = () => {
     useEffect(() => {
         const fetchOrders = async () => {
             try {
-                const response = await axios.get('https://backend-mlyr.onrender.com/api/order/');
+                const response = await axios.get('https://backend-1-kb5u.onrender.com/api/order/');
                 setOrders(response.data);
             } catch (error) {
                 console.error('Error fetching orders:', error);
